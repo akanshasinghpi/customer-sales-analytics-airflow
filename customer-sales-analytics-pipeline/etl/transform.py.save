@@ -1,0 +1,18 @@
+import pandas as pd
+
+def transform_data(df):
+
+    # Fill missing values
+    df = df.fillna(0)
+
+    # Convert date column
+    df["Date"] = pd.to_datetime(df["Date"])
+
+    # Create revenue column
+    df["Revenue"] = df["Quantity"] * df["Price"]
+
+    # Extract month
+    df["Month"] = df["Date"].dt.month
+
+    # Customer level metrics
+    customer

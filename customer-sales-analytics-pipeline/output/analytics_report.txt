@@ -1,0 +1,30 @@
+=== SALES ANALYTICS REPORT ===
+
+Top 5 Customers by Revenue:
+
+Customer_ID
+C1023    690
+C1150    470
+C1098    345
+C1300    345
+C1200    180
+
+
+
+Revenue by Region:
+
+Region
+Central    870
+South      690
+North      550
+West       260
+
+
+
+Monthly Revenue Trend:
+
+Month
+1    1275
+2    1095
+
+
